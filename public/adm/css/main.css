@@ -1,0 +1,114 @@
+.single-box-page {
+    margin-top: 100px;
+}
+label.error, label.ajax-error{
+	font-size: 12px;
+	color: red;
+	position: absolute;
+}
+.loading-gif {
+	display: inline-block;
+    padding: 10px 0px 0px 12px;
+}
+.float-left {
+	/*float: left !important;*/
+}
+.custom-input {
+	margin-bottom: 20px;
+}
+
+.shape-buttons-container, .wording-buttons-container, .template-buttons-container, .product-buttons-container, .clipart-buttons-container {
+	padding: 5px 10px 0px 0px;
+}
+.shape-buttons-container div, .wording-buttons-container div, .template-buttons-container div, .product-buttons-container div, .clipart-buttons-container div {
+	padding: 5px;
+}
+.dz-error-mark, .dz-success-mark {
+	display: none;	
+}
+.dz-image-preview{
+	width: 15%;
+	display: inline-block;
+}
+.dz-image-preview{
+	padding-right: 10px; 
+}
+.dz-image-preview:not(.keep-original) img {
+	width: 70%;
+
+}
+.dz-error-message {
+	color: red;
+}
+
+div.dt-buttons {
+    float: right;
+}
+
+.image-preview img{
+	width: 80px;
+	max-height: 50px;
+}
+div.bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
+	width: 100%;
+}
+button.dropdown-toggle{
+	line-height: 32px;
+	height: 32px;
+	padding:5px 10px;
+	border-color: #BDBDBD;
+	color: #797979 !important;
+}
+
+button.dropdown-toggle > span {
+	line-height: initial;
+	line-height: initial;
+}
+.bootstrap-select label.error {
+	left: 0px;
+    bottom: -15px;
+}
+.smart-form .toggle i {
+	width: 65px;
+    height: 23px;
+    left: 0;
+}
+.custom-toggle {
+    padding-right: 0px !important;
+}
+.smart-form .toggle input:checked+i:before {
+    right: 43px;
+}
+.smart-form .toggle i:before {
+    width: 15px;
+    height: 15px;
+}
+.smart-form .toggle i:after {
+    font-size: 15px;
+    top: 5px;
+}
+
+#shapesTable_wrapper #category-select select{
+	min-width: 120px;
+}
+#shapesTable_wrapper #category-select {
+	padding: 5px 0px;
+}
+.tableSearchBar {
+	width: 270px !important;
+}
+@media screen and (max-width: 735px) {
+	.shape-buttons-container, .wording-buttons-container, .template-buttons-container, .product-buttons-container {
+		width: 100%;
+		padding: 10px 15px;
+	}
+	.shape-buttons-container div, .wording-buttons-container div, .template-buttons-container div, .product-buttons-container div{
+		float: left !important;
+	}
+	.title-container {
+		width: 100%;
+	}
+	.page-title {
+		margin-bottom: 0px;
+	}
+}
